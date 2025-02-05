@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(63, 55, 55);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgb(117, 101, 101);
+    border-radius: 17px;
+    width: 450px;
+    height: 700px;
+    margin: 20px;
+}
+.container-image{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+}
+.container-image img{
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.name{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.location{
+    color: rgb(82, 244, 82);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.job-description{
+    text-align: center;
+    color: white;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 45px;
+}
+.profile-links{
+   margin:15px; 
+}
+.links{
+    background-color:rgb(177, 162, 162);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.profile-links a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (min-width:750px) {
+    .container{
+        background-color: rgb(117, 101, 101);
+        border-radius: 17px;
+        width: 500px;
+        height: 700px;
+    }
+    .profile-links{
+        margin:45px; 
+     }
+     .links{
+         background-color:rgb(177, 162, 162);;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding:11px 15px;
+         margin: 10px;
+         border-radius: 5px;
+     }
+     
+
+}
